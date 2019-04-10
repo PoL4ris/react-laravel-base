@@ -3,7 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+
   render() {
+    this.state = {
+      isLoggedIn: false,
+      user: {}
+    };
     return (
       <div className="App">
         <header className="App-header">
